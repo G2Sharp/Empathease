@@ -10,13 +10,20 @@ export default function Services() {
   const servicesContainer = document.createElement("div");
   servicesContainer.classList.add("services__container");
 
-  const card1 = createServiceCard("Experience Bliss", "AI Powered technology");
+  const card1 = createServiceCard("Experience Bliss", "Love Cromossom");
   const card2 = createServiceCard("Are you Ready?", "Take the leap");
   const card3 = createServiceCard("Are you Ready?", "Take the leap");
+  const card4 = createServiceCard("Are you Ready?", "Take the leap");
+  const card5 = createServiceCard("Are you Ready?", "Take the leap");
+  const card6 = createServiceCard("Are you Ready?", "Take the leap");
 
   servicesContainer.appendChild(card1);
   servicesContainer.appendChild(card2);
-  servicesContainer.appendChild(card3);
+  // servicesContainer.appendChild(card3);
+  // servicesContainer.appendChild(card4);
+  // servicesContainer.appendChild(card5);
+  // servicesContainer.appendChild(card6);
+  
 
   servicesSection.appendChild(h1);
   servicesSection.appendChild(servicesContainer);
