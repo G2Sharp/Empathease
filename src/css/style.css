@@ -408,7 +408,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/src/img/pic2.jpg');
+    url('./src/img/pic2.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -424,7 +424,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.9) 100%
     ),
-    url('/src/img/pic3.jpg');
+    url('./src/img/pic3.jpg');
 }
 .services__card:nth-child(3) {
   background-image: linear-gradient(
@@ -432,7 +432,7 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.9) 100%
     ),
-    url('/src/img/pic4.jpg');
+    url('./src/img/pic4.jpg');
 }
 
 .services__card h2 {
